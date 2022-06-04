@@ -8,7 +8,7 @@ export default function Custom404() {
     setTimeout(() => {
       router.push("/");
     }, 3000);
-  }, []);
+  });
   return (
     <>
       <div className="container404">
